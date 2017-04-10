@@ -18,8 +18,5 @@ function centuryFromYear($year) {
     return $highsum;
   }
 }
-
 echo centuryFromYear(1920);
-
-
 ?>
