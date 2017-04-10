@@ -10,8 +10,8 @@
             "name": "Launch currently open script",
             "type": "php",
             "request": "launch",
-            "program": "${getcentury.php}",
-            "cwd": "${http://localhost/codeplay/}",
+            "program": "${file}",
+            "cwd": "${dir}",
             "port": 9000
         }
     ]
