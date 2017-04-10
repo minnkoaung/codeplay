@@ -7,6 +7,7 @@ function centuryFromYear($year) {
   //floor = Returns the next lowest integer value (as float) by rounding down value if necessary.
   $lowsum = floor($divsum);
   echo "This is the lowest integer value of input number= " . $lowsum . "<br/>";
+
   //ceil() = Returns the next highest integer value by rounding up value if necessary.
   $highsum = ceil($divsum);
    echo "This is the higest integer value of input number= " . $highsum . "<br/>";
@@ -17,6 +18,7 @@ function centuryFromYear($year) {
     return $highsum;
   }
 }
+
 echo centuryFromYear(1920);
 
 
